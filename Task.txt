@@ -41,7 +41,7 @@ aac2bcc7131b55ac0ae76ad50b66920bb623271b-1675093754861.mp4
     Посетитель
     Место (резерв)
 
-Основной объект должен быть - Место (резерв)
+Основной объект должен быть - Экскурсия, или Место (резерв)
 
 //////////////////////////////////////// Сущности:
 Экскурсия:
@@ -129,19 +129,25 @@ Customer -
     h2
     Spring Security
 
-Вариант 2:
-    Spring Boot
-    h2
-    Spring Security
+Вариант 2: (Основа в 11.1)
+    Spring Boot (11.1 и 11.2)
+    h2 (7.1, 7.2, 7.3)
+    JPA (9.1 и 9.2)
+    REST (10.1 и 10.2, можно 10.3)
+    Spring Security (12.2)
+
+    Зависимости:
+https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.0.2&packaging=jar&jvmVersion=11&groupId=org.example&artifactId=maxima-java-final&name=maxima-java-final&description=Final%20project&packageName=org.example.maxima-java-final&dependencies=data-jpa,h2,web
 
 Выбор:
     Spring / Spring Boot
     JPA / JDBC
-    MVC (freemarker / thymeleaf) / REST (спецификация Open API)
+    MVC (freemarker или thymeleaf) / REST (спецификация Open API)
 
 HATEOAS ? - можно
 Hibernate ??
-
+/////////////////////////////////// Дополнительно:
+Настройки перенести в application.properties (7.3 - )
 
 //-------------------------------------------------------------------------------------------------
 
